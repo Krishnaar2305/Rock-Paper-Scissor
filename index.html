@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class = "move">Choose your move 
+        <div class="cpu">I choose
+        <img src = "" id = "cpuChoice"></div>
+    </div>
+    <div id = "player"> 
+    <button id = "rock" type = "button" onclick="rock()">
+        <img class = "playerMove" src = "images/rock.png">
+    </button>
+    <button id = "paper" type = "button" onclick="paper()">
+        <img class="playerMove" src = "images/paper.png">
+    </button>
+    <button id = "scissor" type = "button" onclick="scissor()">
+        <img class="playerMove" src = "images/scissors.png">
+    </button></div>
+    <div class = "result">
+    <p id = "desc"></p>
+    <p id = "playerPoint">Player Points: </p>
+    <p id = "cpuPoint">Cpu Point: </p>
+    <button id = "reset" type = "button" onclick="reset()">Restart</button>
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html>
