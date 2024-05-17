@@ -19,7 +19,7 @@ body{
 
 button{
     @media screen and (max-width:800px) {
-        margin-left: 15vw;
+        margin-left: 10vw;
     }
     width: 150px;
     height: 120px;
@@ -30,7 +30,7 @@ button{
 }
 .move{
     @media screen and (max-width:800px) {
-        margin-left: 15vw;
+        margin-left: 10vw;
     }
     margin-left: 30vw;
     color: white;
@@ -39,6 +39,9 @@ button{
 #cpuChoice{
     margin-top: 20px;
     margin-left: -30px;
+    @media screen and (max-width:800px) {
+        margin-left: -20px;
+    }
 }
 .cpu{
     display: flex;
@@ -56,7 +59,10 @@ button{
 p{
     margin-top: -5px;
 }
-#reset{
+#reset{ 
+    @media screen and (max-width:800px) {
+    margin-left: 13vw;
+}
     background-color: transparent;
     color: white;
     width: 200px;
