@@ -18,6 +18,9 @@ body{
 }
 
 button{
+    @media screen and (max-width:800px) {
+        margin-left: 15vw;
+    }
     width: 150px;
     height: 120px;
     margin-left: 30vw;
@@ -26,6 +29,9 @@ button{
     border: none;
 }
 .move{
+    @media screen and (max-width:800px) {
+        margin-left: 15vw;
+    }
     margin-left: 30vw;
     color: white;
     text-align: left;
