@@ -61,7 +61,7 @@ p{
 }
 #reset{ 
     @media screen and (max-width:800px) {
-    margin-left: 11vw;
+    margin-left: 15vw;
 }
     background-color: transparent;
     color: white;
